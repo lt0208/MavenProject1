@@ -9,7 +9,7 @@ class MavenJenkinsTest {
     public void testDemo(){
         Logger logger = Logger.getLogger(MavenJenkins.class.getName());
         logger.info("testing...");
-        assertTrue(true);
+        assertTrue(false);
     }
 
 }
