@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MavenJenkinsTest {
+public class MavenJenkinsTest {
     @Test
     public void testDemo(){
         Logger logger = Logger.getLogger(MavenJenkins.class.getName());
